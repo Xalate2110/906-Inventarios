@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd" xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.0" Serie="GHA" Folio="1" Fecha="2025-02-21T16:48:46" FormaPago="03" SubTotal="27.07" Descuento="0" Moneda="MXN" Total="31.4" TipoDeComprobante="I" Exportacion="01" MetodoPago="PUE" LugarExpedicion="58220">
+  <cfdi:Emisor Rfc="IIA040805DZ4" Nombre="INDISTRIA ILUMINADORA DE ALMACENES" RegimenFiscal="626"/>
+  <cfdi:Receptor Rfc="AAFE900828CU1" Nombre="ERWIN HOMERO ALVARADO FLORES" DomicilioFiscalReceptor="58348" RegimenFiscalReceptor="626" UsoCFDI="G03"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="40172800" NoIdentificacion="UCE-68" Cantidad="1" ClaveUnidad="H87" Unidad="PZA" Descripcion="Codo Estufa 3/8 Flare x 1/2 FNPT" ValorUnitario="27.07" Importe="27.07" Descuento="0" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="27.07" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="4.3312"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="4.33">
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="27.07" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="4.33"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+</cfdi:Comprobante>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd" xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.0" Serie="GHA" Folio="4" Fecha="2025-02-24T07:44:01" FormaPago="03" SubTotal="428.4" Descuento="0" Moneda="MXN" Total="496.94" TipoDeComprobante="I" Exportacion="01" MetodoPago="PUE" LugarExpedicion="58220">
+  <cfdi:Emisor Rfc="IIA040805DZ4" Nombre="INDISTRIA ILUMINADORA DE ALMACENES" RegimenFiscal="626"/>
+  <cfdi:Receptor Rfc="AAFE900828CU1" Nombre="ERWIN HOMERO ALVARADO FLORES" DomicilioFiscalReceptor="58348" RegimenFiscalReceptor="626" UsoCFDI="G03"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="40141720" NoIdentificacion="VL-T55" Cantidad="1" ClaveUnidad="H87" Unidad="PZA" Descripcion="Conector Flexible T Vinilo Premium Lavabo/Fregadero 55cm 1/2 X 1/2 X 1/2" ValorUnitario="128.62" Importe="128.62" Descuento="0" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="128.62" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="20.5792"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="40141609" NoIdentificacion="IP-124" Cantidad="1" ClaveUnidad="H87" Unidad="PZA" Descripcion="Llave de Control Angular 1/4 Vuelta Compresion 1/2 X 1/2" ValorUnitario="109.61" Importe="109.61" Descuento="0" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="109.61" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="17.5376"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="40141720" NoIdentificacion="VL-A200" Cantidad="1" ClaveUnidad="H87" Unidad="PZA" Descripcion="Conector Flexible Vinilo Premium Lavabo/Fregadero 200cm 1/2 X 1/2" ValorUnitario="190.17" Importe="190.17" Descuento="0" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="190.17" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="30.4272"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="68.54">
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="428.4" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="68.54"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+</cfdi:Comprobante>
